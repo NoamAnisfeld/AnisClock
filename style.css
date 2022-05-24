@@ -1,0 +1,25 @@
+:root,
+body {
+	height: 100%;
+	margin: 0;
+	font-size: min(200px, 80vh);
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#minutes::before,
+#seconds::before {
+	content: ":";
+}
+
+#seconds {
+	display: none;
+}
+
+:focus {
+	outline: none;
+}
